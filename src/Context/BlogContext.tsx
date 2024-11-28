@@ -28,7 +28,7 @@ const BlogContext = createContext<BlogContextType | undefined>(undefined);
 
 export const BlogProvider: React.FC<{ children: React.ReactNode  }> = ({ children }) => {
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>(() =>
-    getFromLocalStorage<BlogPost[] >('blogPosts', [])
+    getFromLocalStorage('blogPosts', [])
   );
 
   useEffect(() => {
