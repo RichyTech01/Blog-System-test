@@ -1,4 +1,5 @@
-import React from 'react';
+"use client";
+
 import Layout from './layout';
 import BlogPost from './Blog/BlogList/page';
 import CreateBlog from './Blog/CreateBlogPage/page';

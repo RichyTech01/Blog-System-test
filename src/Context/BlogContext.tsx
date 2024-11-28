@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { createContext, useEffect, useState, useContext } from 'react';
 import { getFromLocalStorage, saveToLocalStorage } from '@/utils/Storage';
